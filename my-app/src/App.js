@@ -1,12 +1,10 @@
-import css from './App.module.css';
-import Sidebar from './components/Sidebar';
+import "../src/components/css/App.css";
+import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 
 function App() {
-  return (
-    <div className={css.App}>
-      <Sidebar />
-    </div>
-  );
+  return <div className="App">
+      <MethodsAsPropsParent />
+  </div>;
 }
 
 export default App;
