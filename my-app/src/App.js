@@ -1,9 +1,9 @@
 import "../src/components/css/App.css";
-import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
+import UncontrolledForm from "./components/UncontrolledForm";
 
 function App() {
   return <div className="App">
-      <MethodsAsPropsParent />
+      <UncontrolledForm />
   </div>;
 }
 
